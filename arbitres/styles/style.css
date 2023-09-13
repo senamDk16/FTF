@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.content {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Ajoutez ces styles à votre balise <style> dans le <head> de votre page HTML */
+
+nav {
+    background-color: #333; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement interne */
+    height: 150px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none; /* Supprimez les puces de la liste */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement horizontal entre les éléments */
+}
+
+nav a {
+    text-decoration: none; /* Supprime le soulignement du lien */
+    color: white; /* Couleur du lien */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s; /* Transition de couleur au survol */
+}
+
+nav a:hover {
+    color: #ff6600; /* Couleur du lien au survol */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto; /* Ajout d'une marge autour de la zone de contenu */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 20px; /* Espacement entre les deux tableaux */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+.grid-div{
+    display: grid;
+    grid-template-rows: repeat(2 , 1fr);
+}
+
+.title_table{
+    text-decoration: underline;
+}
